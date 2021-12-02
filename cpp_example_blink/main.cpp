@@ -1,3 +1,5 @@
+#include "pico/stdlib.h"
+
 int main() {
     #ifndef PICO_DEFAULT_LED_PIN
     #warning blink example requires a board with a regular LED
